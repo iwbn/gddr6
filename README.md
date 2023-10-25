@@ -30,6 +30,7 @@ cd gddr6 && make && sudo ./gddr6
 - RTX 4070 Ti (AD104)
 - RTX 4070 (AD104)
 - RTX 3090 (GA102)
+- RTX 3090 Ti (GA102)
 - RTX 3080 Ti (GA102)
 - RTX 3080 (GA102)
 - RTX 3080 LHR (GA102)
