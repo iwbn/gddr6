@@ -19,7 +19,7 @@ sudo reboot
 
 ## Clone & Run
 ```
-git clone https://github.com/olealgoritme/gddr6
+git clone https://github.com/iwbn/gddr6.git
 cd gddr6 && make && sudo ./gddr6
 ```
 
