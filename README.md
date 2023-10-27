@@ -11,8 +11,7 @@ sudo apt install libpci-dev -y
 
 - Kernel boot parameter: iomem=relaxed
 ```
-sudo vim /etc/default/grub
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash iomem=relaxed"
+sudo sed -i '/^GRUB_CMDLINE_LINUX_DEFAULT=/c\GRUB_CMDLINE_LINUX_DEFAULT="quiet splash iomem=relaxed"' /etc/default/grub
 sudo update-grub
 sudo reboot
 ```
